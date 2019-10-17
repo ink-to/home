@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Créez vos pages artistes et redirigez vos fans ou vous voulez ! Musique, vidéo, événement, booking, shop.">
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-4.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive-style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+	<link rel="icon" href="assets/images/favicon.jpg">
+	<title>Soundinbio - Inscription</title>
+</head>
+<body>
+
+<div class="wrapper">
+	<div class="main-bg-col">
+		<img class="main-bg" src="./assets/images/main-bg.png" alt="#" />
+		<img class="img1" src="./assets/images/img1.png" alt="#" />
+	</div>
+	<img class="img2" src="./assets/images/img2.png" alt="#" />
+	<nav class="container visible-xs">
+		<div class="row">
+			<div class="col-12">
+				<a href="index.html"><img class="logo float-left" src="./assets/images/logo.png" alt="#"></a>
+				<a href="connexion.html"><button class="main-btn float-right" type="button">Se connecter</button></a>
+			</div>
+		</div>
+	</nav>
+	<div class="form-wrapper">
+		<div class="container">
+			<!-- Modal -->
+		<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLongTitle">TERMES & CONDITIONS</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        ...
+		      </div>
+		    </div>
+		  </div>
+		</div>
+			<div class="row">
+				<div class="col-12">
+					<div class="main-form">
+						<div class="row">
+							<div class="col-12 hidden-xs">
+								<div class="form-col text-center">
+									<a href="index.html"><img class="logo" src="./assets/images/logo.png" alt="#" /></a>
+								</div>
+							</div>
+							<div class="col-12">
+								<p class="left-anchor mt-4">Redirige tes fans où tu veux.</p>
+							</div>
+							<div class="col-12">
+								<ul class="form-list">
+									<li>
+										<a>
+											<img src="./assets/images/music.svg" alt="#">
+											<span>Musique</span>
+										</a>
+									</li>
+									<li>
+										<a>
+											<img src="./assets/images/video.svg" alt="#">
+											<span>Vidéo</span>
+										</a>
+									</li>
+									<li>
+										<a>
+											<img src="./assets/images/event.svg" alt="#">
+											<span>Evénement</span>
+										</a>
+									</li>
+									<li>
+										<a>
+											<img src="./assets/images/booking.svg" alt="#">
+											<span>Booking</span>
+										</a>
+									</li>
+									<li>
+										<a>
+											<img src="./assets/images/shop.svg" alt="#">
+											<span>Shop</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-12">
+								<div class="form-tab-main">
+									<div class="form-tab-col">
+										<p class="active" data-toggle="signup-toggle">PERSONNEL</p>
+										<p data-toggle="signup-toggle1">BUSINESS</p>
+									</div>
+									<form name="signup" class="tab-form signup-toggle" method="post" action="">
+										<div class="form-group">
+											<label>Prénom *</label>
+											<input required="" type="text" placeholder="John" name="prenom"/>
+											<hr />
+										</div>
+										<div class="form-group">
+											<label>Nom *</label>
+											<input required="" type="text" placeholder="Do" name="nom" />
+											<hr />
+										</div>
+										<div class="form-group">
+											<label>E-mail *</label>
+											<input required="" type="email" placeholder="johndo@mail.com" name="email" />
+											<hr />
+										</div>
+										<div class="form-group check-form-group">
+											<label>
+												<input required="" type="checkbox" name="checkbox1">
+												J'ai lu et j'accepte les <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">termes & conditions</a>
+											</label>
+										</div>
+										<div class="form-group mb-0">
+											<a href="#"><button onclick="validateForm()" type="submit">Créer mon compte</button></a>
+										</div>
+									</form>
+									<form name="signup1" class="tab-form signup-toggle1" style="display: none;" method="post" action="">
+										<div class="form-group">
+											<label>Prénom *</label>
+											<input required="" type="text" placeholder="John" name="prenom1" />
+											<hr />
+										</div>
+										<div class="form-group">
+											<label>Nom *</label>
+											<input required="" type="text" placeholder="Do" name="nom1" />
+											<hr />
+										</div>
+										<div class="form-group">
+											<label>Adresse e-mail professionnelle *</label>
+											<input required="" type="email" placeholder="johndo@company.com" name="email1" />
+											<hr />
+										</div>
+										<div class="form-group">
+											<label>Type de société *</label>
+											<select required="" name="statute1">
+												<option>Label</option> 
+												<option>Distributeur</option> 
+												<option>Manager</option> 
+												<option>Community manager</option> 
+												<option>Agence</option> 
+												<option>Autre</option>
+											</select>
+											<hr />
+										</div>
+										<div class="form-group">
+											<label>Nom de société *</label>
+											<input required="" type="text" placeholder="Company name" name="societe1" />
+											<hr />
+										</div>
+										<div class="form-group check-form-group">
+											<label>
+												<input required="" type="checkbox" name="checkbox11">
+												J'ai lu et j'accepte les <a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">termes & conditions</a>
+											</label>
+										</div>
+										<div class="form-group mb-0">
+											<a href="#"><button onclick="validateForm1()" type="submit">Créer mon compte</button></a>
+										</div>
+									</form>
+								</div>
+								<div class="form-footer">
+									<a href="connexion.html">Déjà un compte ? Connectez-vous ici</a>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<p id="error">Nous vous avons envoyé un email. Cliquez sur le lien de validation dans l'email pour valider votre compte <img src="./assets/images/cross.png" alt="#" /></p>
+	</div>
+</div>
+
+<script type="text/javascript" src="assets/js/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="assets/js/popper.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap-4.js"></script>
+<script>
+function validateForm() {
+    var input1 = $('form[name="signup"] input[name="prenom"]').val();
+    var input2 = $('form[name="signup"] input[name="nom"]').val();
+    var input3 = $('form[name="signup"] input[name="email"]').val();
+    var input4 = $('form[name="signup"] select[name="statute"]').val();
+    var input5 = $('form[name="signup"] input[name="societe"]').val();
+    var input6 = $('form[name="signup"] input[name="checkbox1"]').val();
+
+    $('.form-group input, .form-group select').css('border-color', '#e6eaee');
+
+    if (input1 == null || input1 == "") {
+    	$('form[name="signup"] input[name="prenom"]').css('border-color', '#f44336');
+        $('#error').show();
+        return false;
+    } else if (input2 == null || input2 == "") {
+    	$('form[name="signup"] input[name="nom"]').css('border-color', '#f44336');
+        $('#error').show();
+        return false;
+    } else if (input3 == null || input3 == "") {
+    	$('form[name="signup"] input[name="email"]').css('border-color', '#f44336');
+        $('#error').show();
+        return false;
+    } else if ("form[name='signup'] select[name='statute'] option:selected" == false) {
+    	$('form[name="signup"] select[name="statute"]').css('border-color', '#f44336');
+        $('#error').show();
+        return false;
+    } else if (input5 == null || input5 == "") {
+    	$('form[name="signup"] input[name="societe"]').css('border-color', '#f44336');
+        $('#error').show();
+        return false;
+    } else if ($("form[name='signup'] input[name='checkbox1']").prop("checked") == false) {
+        $('#error').show();
+        return false;
+    }
+}
+</script>
+<script>
+function validateForm1() {
+    var input1 = $('form[name="signup1"] input[name="prenom1"]').val();
+    var input2 = $('form[name="signup1"] input[name="nom1"]').val();
+    var input3 = $('form[name="signup1"] input[name="email1"]').val();
+    var input4 = $('form[name="signup1"] select[name="statute1"]').val();
+    var input5 = $('form[name="signup1"] input[name="societe1"]').val();
+    var input6 = $('form[name="signup1"] input[name="checkbox11"]').val();
+
+    $('.form-group input, .form-group select').css('border-color', '#e6eaee');
+
+    if (input1 == null || input1 == "") {
+    	$('form[name="signup1"] input[name="prenom1"]').css('border-color', '#f44336');
+        $('#error').show();
+        return false;
+    } else if (input2 == null || input2 == "") {
+    	$('form[name="signup1"] input[name="nom1"]').css('border-color', '#f44336');
+        $('#error').show();
+        return false;
+    } else if (input3 == null || input3 == "") {
+    	$('form[name="signup1"] input[name="email1"]').css('border-color', '#f44336');
+        $('#error').show();
+        return false;
+    } else if ("form[name='signup1'] select[name='statute1'] option:selected" == false) {
+    	$('form[name="signup1"] select[name="statute1"]').css('border-color', '#f44336');
+        $('#error').show();
+        return false;
+    } else if (input5 == null || input5 == "") {
+    	$('form[name="signup1"] input[name="societe1"]').css('border-color', '#f44336');
+        $('#error').show();
+        return false;
+    } else if ($("form[name='signup1'] input[name='checkbox11']").prop("checked") == false) {
+        $('#error').show();
+        return false;
+    }
+}
+</script>
+<script type="text/javascript">
+	$('#error img').click(function(){
+		$(this).parent().hide();
+	});
+</script>
+<script type="text/javascript">
+	$('.form-tab-col p').click(function(){
+		$('.form-tab-col p').removeClass('active');
+		$(this).addClass('active');
+		var tab = $(this).attr('data-toggle');
+		$('.tab-form').css('display','none');
+		$('.' + tab).css('display','block');
+	});
+</script>
+</body>
+</html>

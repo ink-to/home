@@ -1,0 +1,287 @@
+.visible-xs{
+	display: none !important;
+}
+.hidden-xs{
+	display: block !important;
+}
+@media(max-width: 1300px){
+	.row{
+		margin:0;
+	}
+.main-form {
+    width: 432px;
+    margin: auto;
+}
+.main-form2 {
+    width: 800px;
+    margin: auto;
+    text-align: justify;
+}
+}
+@media(max-width: 1200px){
+	.left-section {
+    padding-top: 57px;
+}
+	.iphone-section a {
+    width: 153px;
+    height: 14px;
+    top: 6.8%;
+    left: 23%;
+    font-size: 8px;
+    line-height: 14px;
+}
+#cookies{
+height: inherit;
+line-height: 1.4;
+padding-top: 15px;
+padding-bottom: 15px;
+text-align: center;
+}
+
+.btn{
+    margin-top: 10px;
+}
+
+.social-media-list li img{
+	width: 36px;
+}
+.left-section .heading {
+    width: 403px;
+    font-size: 36px;
+    height: 90px;
+    max-width: 100%;
+}
+.main-btn1 {
+    height: 44px;
+    font-size: 13px;
+    margin-top: 28px;
+}
+.left-anchor {
+    height: 17px;
+    font-size: 13px;
+    margin-top: 30px;
+}
+.main-form2 {
+    width: 800px;
+    margin: auto;
+    text-align: justify;
+}
+.footer a {
+    font-size: 13px;
+}
+}
+@media(max-width: 1024px){
+	.left-section span{
+		display: block;
+		margin: auto;
+	}
+	.left-section {
+    padding-top: 27px;
+}
+.iphone-section {
+    position: relative;
+    width: 280px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 1rem;
+}
+#cookies{
+height: inherit;
+line-height: 1.4;
+padding-top: 15px;
+padding-bottom: 15px;
+text-align: center;
+}
+
+.btn{
+    margin-top: 10px;
+}
+
+.iphone-section a {
+    width: 184px;
+    height: 17px;
+    top: 6.9%;
+    left: 24%;
+    font-size: 10px;
+    line-height: 17px;
+}
+.main-form2 {
+    width: 600px;
+    margin: auto;
+    text-align: justify;
+}
+.footer-list{
+	text-align: center;
+}
+.footer {
+    position: absolute;
+}
+}
+@media(max-width: 767px){
+	.visible-xs{
+		display: block !important;
+	}
+	.hidden-xs{
+		display: none !important;
+	}
+	.left-section span {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+.footer {
+    position: absolute;
+}
+.logo {
+    width: 10rem;
+}
+.main-btn {
+    height: 34px;
+    padding: 0 10px;
+    font-size: 14px;
+}
+.img2 {
+    width: 20%;
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+.img1 {
+    position: fixed;
+    right: 0;
+    bottom: calc(50%);
+    width: 7%;
+}
+.left-section .heading {
+    width: 267px;
+    font-size: 24px;
+    height: inherit;
+    max-width: 100%;
+}
+.main-bg {
+    width: 200%;
+    max-width: 200%;
+    margin-left: 0;
+}
+nav.container {
+    width: 1250px;
+    max-width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 9;
+    top: -1px;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+.wrapper{
+    padding-top: 80px;
+}
+.main-bg-col{
+	overflow-x: hidden;
+}
+.iphone-section{
+    margin-top: 2rem;
+}
+.main-btn1 {
+    height: 39px;
+    font-size: 12px;
+    margin-top: 20px;
+    padding: 0 22px;
+}
+.left-anchor {
+    height: 17px;
+    font-size: 12px;
+    margin-top: 23px;
+}
+.social-media-list li img {
+    width: 34px;
+    margin: 5px;
+}
+.social-media-list {
+    margin-top: 17px;
+}
+.iphone-section {
+    width: 280px;
+}
+.iphone-section a {
+    width: 158px;
+    height: 14px;
+    top: 7%;
+    left: 24%;
+    font-size: 8px;
+    line-height: 14px;
+}
+.footer a{
+	font-size: 12px;
+}
+.main-form{
+	max-width: 100%;
+}
+.main-form2 {
+    width: 432px;
+    margin: auto;
+}
+.form-tab-col p{
+	font-size: 12px;
+}
+#cookies{
+height: inherit;
+line-height: 1.4;
+padding-top: 15px;
+padding-bottom: 15px;
+text-align: center;
+}
+.btn{
+    margin-top: 10px;
+}
+
+#cookies img{
+    top: 0;
+}
+#error{
+height: inherit;
+line-height: 1.4;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+#error img{
+	top: 0;
+}
+.form-wrapper {
+    padding-top: 1rem;
+}
+.form-wrapper .col-12{
+    padding-left:0;
+    padding-right: 0;
+}
+.form-list li {
+    padding: 0 0px;
+}
+.form-list {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+}
+@media (min-width: 320px) and (max-width: 480px){
+    .form-list li a {
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .main-form {
+    width: 350px;
+    margin: auto;
+    text-align: justify;
+}
+.main-form2 {
+    width: 350px;
+    margin: auto;
+    text-align: justify;
+}
+    form .form-group button{
+        font-size: 14px;
+    }
+}

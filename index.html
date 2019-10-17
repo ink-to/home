@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Créez vos pages artistes et redirigez vos fans ou vous voulez ! Musique, vidéo, événement, booking, shop.">
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-4.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive-style.css">
+	<link rel="icon" href="assets/images/favicon.jpg">
+	<script src="https://kit.fontawesome.com/fced84414a.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+	<title>Soundinbio - Un seul lien dans ta bio  pour toute ta musique !</title>
+</head>
+<body>
+
+<div class="wrapper">
+	<div class="main-bg-col">
+		<img class="main-bg" src="./assets/images/main-bg.png" alt="#" />
+		<img class="img1" src="./assets/images/img1.png" alt="#" />
+	</div>
+	<img class="img2" src="./assets/images/img2.png" alt="#" />
+	<nav class="container">
+		<div class="row">
+			<div class="col-12">
+				<a href="index.html"><img class="logo float-left" src="./assets/images/logo.png" alt="#"></a>
+				<a href="connexion.html"><button class="main-btn float-right" type="button">Se connecter</button></a>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<!-- Modal terms & conditions -->
+		<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLongTitle">TERMES & CONDITIONS</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		        	<span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        ...
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<div class="row">
+			<div class="col-12 col-sm-12 col-lg-8 left-section">
+				<div class="row text-center">
+					<span>
+						<h1 class="heading">Un seul lien dans ta bio  pour toute ta musique !</h1>
+
+						<div class="col-12">
+							<a href="inscription.html"><button class="main-btn1" type="button">CRÉER UN COMPTE GRATUITEMENT</button></a>
+						</div>
+						<div class="col-12">
+							<p class="left-anchor">Redirige tes fans où tu veux.</p>
+						</div>
+						<div class="col-12">
+							<ul class="social-media-list">
+								<li><img src="./assets/images/spotify.png" alt="#" /></li>
+								<li><img src="./assets/images/deezer.png" alt="#" /></li>
+								<li><img src="./assets/images/apple_music.png" alt="#" /></li>
+								<li><img src="./assets/images/tidal.png" alt="#" /></li>
+								<li><img src="./assets/images/napster.png" alt="#" /></li>
+								<li><img src="./assets/images/soundcloud.png" alt="#" /></li>
+								<li><img src="./assets/images/youtube.png" alt="#" /></li>
+								<li><img src="./assets/images/amazon.png" alt="#" /></li>
+								<li><img src="./assets/images/fnac.png" alt="#" /></li>
+								<li><img src="./assets/images/ticketmaster.png" alt="#" /></li>
+								<li><img src="./assets/images/songkick.png" alt="#" /></li>
+							</ul>
+						</div>
+					</span>
+				</div>
+			</div>
+			<div class="col-12 col-sm-12 col-lg-4 right-section">
+				<div class="iphone-section">
+					<img class="mobile" src="./assets/images/mobile.png" alt="#" />
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<ul class="footer-list">
+						<li><a href="#" data-toggle="modal" data-target=".bd-example-modal-lg">Termes & conditions</a></li>
+						<li><a href="cookies.html">Cookie</a></li>
+						<li><a href="mailto: julien@soundinbio.com">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div> 
+</div>
+
+<div id="cookies">
+
+		<p>🍪 Pour vous proposer le meilleur service, Soundinbio utilise des cookies afin de suivre les performances des campagnes et de diffuser des annonces liées à vos centres d'intérêt.
+		</p>
+
+		<a href="cookies.html"><button type="button" class="btn btn-light"id="p_cookies">Politique de cookie</button></a>
+
+		<a id="m_cookies"><button type="button" class="btn btn-light">Accepter</button></a>
+
+</div>
+
+<script type="text/javascript" src="assets/js/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="assets/js/popper.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap-4.js"></script>
+<script type="text/javascript">
+	$('#cookies #m_cookies').click(function(){
+		$(this).parent().hide();
+	});
+</script>
+</body>
+</html>
