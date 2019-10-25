@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Créez vos pages artistes et redirigez vos fans ou vous voulez ! Musique, vidéo, événement, booking, shop.">
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-4.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive-style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+	<link rel="icon" href="assets/images/favicon.jpg">
+	<title>Soundinbio - OOPS! ERROR 404</title>
+</head>
+<body>
+
+<div class="wrapper">
+	<div class="main-bg-col">
+		<img class="main-bg" src="./assets/images/main-bg.png" alt="#" />
+		<img class="img1" src="./assets/images/img1.png" alt="#" />
+	</div>
+	<img class="img2" src="./assets/images/img2.png" alt="#" />
+	<nav class="container visible-xs">
+		<div class="row">
+			<div class="col-12">
+				<a href="index.html"><img class="logo float-left" src="./assets/images/logo.png" alt="#"></a>
+				<a href="connexion.html"><button class="main-btn float-right" type="button"></button></a>
+			</div>
+		</div>
+	</nav>
+	<div class="form-wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="main-form">
+						<div class="row">
+							<div class="col-12 hidde-xs">
+								<div class="form-col text-center">
+									<a href="index.html"><img class="logo" src="./assets/images/logo.png" alt="#" /></a>
+								</div>
+							</div>
+							<div class="col-12">
+								<p class="left-anchor mt-4">Redirige tes fans où tu veux.</p>
+							</div>
+							<div class="col-12">
+								<ul class="form-list">
+									<li>
+										<a>
+											<img src="./assets/images/music.svg" alt="#">
+											<span>Musique</span>
+										</a>
+									</li>
+									<li>
+										<a>
+											<img src="./assets/images/video.svg" alt="#">
+											<span>Vidéo</span>
+										</a>
+									</li>
+									<li>
+										<a>
+											<img src="./assets/images/event.svg" alt="#">
+											<span>Evénement</span>
+										</a>
+									</li>
+									<li>
+										<a>
+											<img src="./assets/images/booking.svg" alt="#">
+											<span>Booking</span>
+										</a>
+									</li>
+									<li>
+										<a>
+											<img src="./assets/images/shop.svg" alt="#">
+											<span>Shop</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-12">
+								<form name="sending-email" method="post" action="">
+									<div class="form-group">
+										<label class="error">Oops! Error 404.</label>
+										<p>The page you were looking for doesn't exist. We think the page may have moved.</p>
+										<hr />
+									</div>
+									<div class="form-group mb-0">
+										<a href="index.html"><button onclick="validateForm()" type="submit">Revenir à la page d'accueil</button></a>
+									</div>
+								</form>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<p id="error">Nous vous avons envoyé un e-mail.  Cliquez sur le lien de validation dans l'e-mail pour valider votre compte <img src="./assets/images/cross.png" alt="#" /></p>
+	</div>
+</div>
+
+<script type="text/javascript" src="assets/js/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="assets/js/popper.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap-4.js"></script>
+<script>
+function validateForm() {
+    var input1 = $('form[name="sending-email"] input[name="email"]').val();
+
+    $('.form-group input').css('border-color', '#e6eaee');
+
+    if (input1 == null || input1 == "") {
+    	$('input[name="email"]').css('border-color', '#f44336');
+        $('#error').show();
+        return false;
+    }
+}
+</script>
+<script type="text/javascript">
+	$('#error img').click(function(){
+		$(this).parent().hide();
+	});
+</script>
+</body>
+</html>
