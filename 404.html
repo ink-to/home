@@ -23,8 +23,6 @@
 	<nav class="container visible-xs">
 		<div class="row">
 			<div class="col-12">
-				<a href="index.html"><img class="logo float-left" src="./assets/images/logo.png" alt="#"></a>
-				<a href="connexion.html"><button class="main-btn float-right" type="button"></button></a>
 			</div>
 		</div>
 	</nav>
@@ -82,9 +80,7 @@
 										<label class="error">Oops! Error 404.</label>
 										<p>The page you were looking for doesn't exist. We think the page may have moved.</p>
 										<hr />
-									</div>
-									<div class="form-group mb-0">
-										<a href="index.html"><button onclick="validateForm()" type="submit">Revenir à la page d'accueil</button></a>
+										<a href="index.html"><button class="error_btn" type="button">Revenir à la page d'accueil</button></a>
 									</div>
 								</form>
 							</div>
@@ -94,30 +90,7 @@
 				</div>
 			</div>
 		</div>
-		<p id="error">Nous vous avons envoyé un e-mail.  Cliquez sur le lien de validation dans l'e-mail pour valider votre compte <img src="./assets/images/cross.png" alt="#" /></p>
 	</div>
 </div>
-
-<script type="text/javascript" src="assets/js/jquery-3.3.1.js"></script>
-<script type="text/javascript" src="assets/js/popper.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap-4.js"></script>
-<script>
-function validateForm() {
-    var input1 = $('form[name="sending-email"] input[name="email"]').val();
-
-    $('.form-group input').css('border-color', '#e6eaee');
-
-    if (input1 == null || input1 == "") {
-    	$('input[name="email"]').css('border-color', '#f44336');
-        $('#error').show();
-        return false;
-    }
-}
-</script>
-<script type="text/javascript">
-	$('#error img').click(function(){
-		$(this).parent().hide();
-	});
-</script>
 </body>
 </html>

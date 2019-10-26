@@ -156,6 +156,10 @@ margin-top: 37px;
 padding: 0 29px;
 cursor: pointer;
 }
+.main-btn1 .error_btn{
+margin-top: 0px;
+}
+
 .left-section{
 padding-top: 107px;
 }
@@ -281,6 +285,9 @@ background-color: #ffffff;
 background-size: cover;
 box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
 margin-top: 1.5rem;
+}
+.form-group{
+margin-bottom: 0px;
 }
 .form-list li a{
 font-family: Roboto;
